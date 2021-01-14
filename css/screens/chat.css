@@ -1,7 +1,21 @@
 #chat-screen {
   background-color: #abc1d1;
+  height: 1000vh;
 }
 
-.alt-header__column-hamburger {
-  padding-left: 10px;
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+  background-color: #abc1d1;
+}
+
+#chat-screen .alt-header {
+  top: 10px;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+}
+
+.main-chat {
+  margin-top: 150px;
 }
