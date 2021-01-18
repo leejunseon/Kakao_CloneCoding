@@ -122,7 +122,7 @@
 .reply__column:last-child button {
   position: absolute;
   right: -3px;
-  top: 2px;
+  top: 3px;
 }
 
 .reply__column:last-child > i {
